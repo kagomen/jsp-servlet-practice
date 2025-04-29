@@ -1,0 +1,19 @@
+{
+  // Javaファイルのデフォルトフォーマッターとして設定
+  "[java]": {
+    "editor.defaultFormatter": "ilkka.google-java-format"
+  },
+  // google-java-format実行ファイルのパスを指定
+  "google-java-format.executable-path": "/opt/homebrew/bin/google-java-format",
+  // 保存時に自動フォーマット
+  "editor.formatOnSave": true,
+  "java.project.referencedLibraries": [
+    "/opt/homebrew/Cellar/tomcat/11.0.6/libexec/lib/servlet-api.jar",
+    "/opt/homebrew/Cellar/tomcat/11.0.6/libexec/lib/jsp-api.jar"
+  ],
+
+  // JSPファイルでEmmet補完を有効化（HTMLのような補完）
+  "emmet.includeLanguages": {
+    "jsp": "html"
+  }
+}
