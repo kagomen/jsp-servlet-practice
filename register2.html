@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form action="/javapractice/register2" method="post">
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <div>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" value="male" id="gender" /></label>
+        <input type="radio" name="gender" value="female" id="gender" /></label>
+      </div>
+      <div>
+        <label for="lang">Language: </label>
+        <input type="checkbox" name="lang" value="Java" id="lang">Java</input>
+        <input type="checkbox" name="lang" value="Python" id="lang">Python</input>
+        <input type="checkbox" name="lang" value="C++" id="lang">C++</input>
+      </div>
+      <div>
+        <label for="address">Address: </label>
+        <select name="address" id="address">
+          <option value="japan">Japan</option>
+          <option value="china">China</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+      <div>
+        <label for="message">Message: </label>
+        <input type="textbox" name="message" id="message"/>
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
