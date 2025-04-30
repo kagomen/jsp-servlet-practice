@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Page</title>
+  </head>
+  <body>
+    <h1>Register</h1>
+    <form action="/javapractice/register3" method="post">
+      <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" />
+      </div>
+      <div>
+        <span>Age: </span>
+        <input type="radio" name="age" value="child" id="child" />
+        <label for="child">under 18</label>
+        <input type="radio" name="age" value="adult" id="adult" />
+        <label for="adult">over 18</label>
+      </div>
+      <div>
+        <span for="lang">Language: </span>
+        <input type="checkbox" name="lang" value="Java" id="java" />
+        <label for="java">Java</label>
+        <input type="checkbox" name="lang" value="Python" id="python" />
+        <label for="python">Python</label>
+        <input type="checkbox" name="lang" value="C++" id="c++" />
+        <label for="c++">C++</label>
+      </div>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
